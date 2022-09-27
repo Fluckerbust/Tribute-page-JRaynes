@@ -16,7 +16,15 @@
 
     function showOzzy() {
         div = document.getElementById('ozzy');
-        div.style.display = "";
+        div.style.display = "block";
+    }
+	function showTyson() {
+        div = document.getElementById('tyson');
+        div.style.display = "block";
+    }
+	function showMat() {
+        div = document.getElementById('mat');
+        div.style.display = "block";
     }
 </script>
 </head>
@@ -41,7 +49,7 @@
 			<div class="image_title">
 				<a href="#ozzy" onclick="javascript:showOzzy();">Ozzy Osbourne</a>
 			</div>
-			<a href="#ozzy">
+			<a href="#ozzy" onclick="javascript:showOzzy();">
 				<img alt="Ozzy Osbourne" src="./resources/img/ozzy.png"/>
                 
 			</a>
@@ -50,17 +58,17 @@
         
 		<li class="tysonbg">
 			<div class="image_title">
-				<a href="#tyson">Mike Tyson</a>
+				<a href="#tyson" onclick="javascript:showTyson();">Mike Tyson</a>
 			</div>
-			<a href="#tyson">
+			<a href="#tyson" onclick="javascript:showTyson();">
 				<img alt="Mike Tyson" src="./resources/img/Tyson.png"/>
 			</a>
 		</li>
 		<li class="matbg">
 			<div class="image_title">
-				<a href="#MaT">Matt Stone and Trey Parker</a>
+				<a href="#Mat" onclick="javascript:showMat();">Matt Stone and Trey Parker</a>
 			</div>
-			<a href="#MaT"">
+			<a href="#Mat" onclick="javascript:showMat();">
 				<img alt="Matt Stone and Trey Parker" src="./resources/img/matt and trey2.png"/>
 			</a>
 		</li>
@@ -94,17 +102,38 @@
     <aside id="galileoquote">"a quote i said one time to say something for a quote" <br/> -Galileo Galilei</aside>
     <button type="button" class="galileobutton"><a href="./main.html" >Click to go back</a></button>
 </content>
-<content id="ozzy">
-    <header>Ozzy Osbourne</header>
-    <article>lorem ipsum text to help fill in gaps</article>
+<content id="ozzy" class="ozzycontentbg">
+    <img width="400rem"  class="ozzylogo" alt="Ozzy Osbourne" src="./resources/img/ozzylogo.png"/>
+    <h2>Who is Ozzy Osbourne?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What was Ozzy famous for?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What inspired me about Ozzy?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <aside id="ozzyquote">"a quote i said one time to say something for a quote" <br/> -Ozzy Osbourne</aside>
+    <button type="button" class="ozzybutton"><a href="./main.html" >Click to go back</a></button>
 </content>
-<content id="tyson">
-    <header>Mike Tyson</header>
-    <article></article>
+<content id="tyson" class="tysoncontentbg">
+    <header class="tysonheader">Mike Tyson</header>
+    <h2>Who is Mike Tyson?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What was Mike famous for?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What inspired me about Mike?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <aside id="tysonquote">"a quote i said one time to say something for a quote" <br/> -Mike Tyson</aside>
+    <button type="button" class="tysonbutton"><a href="./main.html" >Click to go back</a></button>
 </content>
-<content id="mat">
-    <header>Matt Stone and Trey Parker</header>
-    <article></article>
+<content id="mat" class="matcontentbg">
+    <header class="matheader">Matt Stone and Trey Parker</header>
+    <h2>Who is Matt Stone and Trey Parker?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What was Matt and Trey famous for?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What inspired me about Matt and Trey?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <aside id="matquote">"a quote i said one time to say something for a quote" <br/> -Matt Stone and Trey Parker</aside>
+    <button type="button" class="matbutton"><a href="./main.html" >Click to go back</a></button>
 </content>
 <content id="ancient">
     <header>Ancient Ruins</header>
