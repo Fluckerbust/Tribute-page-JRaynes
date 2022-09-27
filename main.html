@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <link href="./resources/css/index2.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <title>A tribute to some inspirational people, places and art</title>
+  <script type="text/javascript">
+    function showGalileo() {
+        div = document.getElementById('galileo');
+        div.style.display = "block";
+    }
+
+    function showOzzy() {
+        div = document.getElementById('ozzy');
+        div.style.display = "";
+    }
+</script>
+</head>
+<body>
+
+  <header>A tribute to some inspirational people, places and art</header>
+  <br>
+  <br>
+  <div class="accordian_container">
+  <div class="accordian">
+	<ul>
+		<li class="galileobg">
+			<div class="image_title">
+				<a href="#galileo" onclick="javascript:showGalileo();">Galileo galilei
+                </a>
+			</div>
+			<a href="#galileo" onclick="javascript:showGalileo();">
+				<img src="../Tribute page/resources/img/Galileo.png"/>
+			</a>
+		</li>
+		<li class="ozzybg">
+			<div class="image_title">
+				<a href="#ozzy" onclick="javascript:showOzzy();">Ozzy Osbourne</a>
+			</div>
+			<a href="#ozzy">
+				<img src="../Tribute page/resources/img/ozzy.png"/>
+                
+			</a>
+            
+		</li>
+        
+		<li class="tysonbg">
+			<div class="image_title">
+				<a href="#tyson">Mike Tyson</a>
+			</div>
+			<a href="#tyson">
+				<img src="../Tribute page/resources/img/Tyson.png"/>
+			</a>
+		</li>
+		<li class="matbg">
+			<div class="image_title">
+				<a href="#MaT">Matt Stone and Trey Parker</a>
+			</div>
+			<a href="#MaT"">
+				<img src="../Tribute page/resources/img/matt and trey2.png"/>
+			</a>
+		</li>
+		<li>
+			<div class="image_title">
+				<a href="#ancient">Ancient Ruins</a>
+			</div>
+			<a href="#ancient">
+				<img src="../Tribute page/resources/img/Machu Picchu.png"/>
+			</a>
+		</li>
+        <li class="gokubg">
+			<div class="image_title">
+				<a href="#Anime">Anime</a>
+			</div>
+			<a href="#Anime">
+				<img src="../Tribute page/resources/img/goku.png"/>
+			</a>
+		</li>
+	</ul>
+</div></div>
+
+<content id="galileo" class="galileocontentbg">
+    <header>Galileo Galilei</header>
+    <h2>Who was Galileo Galilei?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What was Galileo famous for?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What inspired me about Galileo?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <aside id="galileoquote">"a quote i said one time to say something for a quote" <br/> -Galileo Galilei</aside>
+    <button type="button" class="galileobutton"><a href="./main.html" >Click to go back</a></button>
+</content>
+<content id="ozzy">
+    <header>Ozzy Osbourne</header>
+    <article>lorem ipsum text to help fill in gaps</article>
+</content>
+<content id="tyson">
+    <header>Mike Tyson</header>
+    <article></article>
+</content>
+<content id="mat">
+    <header>Matt Stone and Trey Parker</header>
+    <article></article>
+</content>
+<content id="ancient">
+    <header>Ancient Ruins</header>
+    <article></article>
+</content>
+<content id="anime">
+    <header>Anime</header>
+    <article></article>
+</content>
+</body>
+</html>
