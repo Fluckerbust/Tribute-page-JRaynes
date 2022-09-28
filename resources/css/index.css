@@ -275,7 +275,7 @@ button a {
 
 
 .ancientcolor:hover {
-  
+  width: 100em;
   opacity: 0;
 
 }
@@ -283,7 +283,7 @@ button a {
   background-image: url(../img/ancientcolor.jpg);
   background-repeat: no-repeat;
   background-size: cover;
- 
+  
 }
 
 .ancientcontentbg {
