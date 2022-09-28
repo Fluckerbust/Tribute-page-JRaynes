@@ -272,3 +272,15 @@ button a {
   color: #D6BB06;
  
 }
+
+
+.ancientcolor:hover {
+  
+  opacity: 0;
+
+}
+.ancientcolorbg:hover {
+  background-image: url(../img/ancientcolor.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

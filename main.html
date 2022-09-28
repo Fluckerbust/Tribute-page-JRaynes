@@ -26,6 +26,10 @@
         div = document.getElementById('mat');
         div.style.display = "block";
     }
+	function showAncient() {
+        div = document.getElementById('ancient');
+        div.style.display = "block";
+    }
 </script>
 </head>
 <body>
@@ -72,12 +76,12 @@
 				<img alt="Matt Stone and Trey Parker" src="./resources/img/matt and trey2.png"/>
 			</a>
 		</li>
-		<li>
+		<li class="ancientcolorbg">
 			<div class="image_title">
-				<a href="#ancient">Ancient Ruins</a>
+				<a href="#ancient" onclick="javascript:showAncient();">Ancient Ruins</a>
 			</div>
-			<a href="#ancient">
-				<img alt="Machu Picchu" src="./resources/img/ancient.png"/>
+			<a href="#ancient" onclick="javascript:showAncient();">
+				<img class="ancientcolor" alt="Machu Picchu" src="./resources/img/ancient.png"/>
 			</a>
 		</li>
         <li class="gokubg">
@@ -137,7 +141,14 @@
 </content>
 <content id="ancient">
     <header>Ancient Ruins</header>
-    <article></article>
+	<h2>Who is Matt Stone and Trey Parker?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What was Matt and Trey famous for?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <h2>What inspired me about Matt and Trey?</h2>
+    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+    <aside id="matquote">"a quote i said one time to say something for a quote" <br/> -Matt Stone and Trey Parker</aside>
+    <button type="button" class="matbutton"><a href="./main.html" >Click to go back</a></button>
 </content>
 <content id="anime">
     <header>Anime</header>
