@@ -35,7 +35,7 @@ flex-direction: row;
 	position: relative;
 	display: flex;
     flex-wrap: wrap;
-	width: 16em;
+	width: 16.021em;
 	float: left;
 	overflow: hidden;
 	border-left: 1px solid #888;
@@ -85,8 +85,8 @@ flex-direction: row;
 .image_title {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
-	left: 0; bottom: 0;	
-width: 850px;	
+	left: 0; bottom: 10px;	
+width: 100%;	
 
 
 }
