@@ -26,7 +26,8 @@ flex-direction: row;
 /*A small hack to prevent flickering on some browsers*/
 .accordian ul {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    
 	
 	/*This will give ample space to the last item to move
 	instead of falling down/flickering during hovers.*/
