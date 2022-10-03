@@ -413,6 +413,7 @@ article ul li {
   color: #2B2017;
   font-size: 1.5em;
   font-family: MangaBoldItalic-eY7g;
+  width: 15em;
 }
 
 .animebutton {
@@ -612,3 +613,44 @@ font-size: 1.5em;
   height: 250px;
 }
 
+.tysoncontentbg figure {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.tysoncontentbg embed {
+  width: 100%;
+  height: 50vh;
+}
+
+.tysoncontentbg figcaption {
+  height: 2rem;
+  font-weight: 700;
+  font-family: helvetica, arial;
+text-align: center;
+  margin: 0 60px;
+  font-size: 1.25em;
+  vertical-align: top;
+}
+
+.ozzycontentbg figure {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.ozzycontentbg embed {
+  width: 100%;
+  height: 50vh;
+}
+
+.ozzycontentbg figcaption {
+  height: 2rem;
+  font-weight: 700;
+  font-family: helvetica, arial;
+  text-align: center;
+  margin: 0 60px;
+  font-size: 1.25em;
+  vertical-align: top;
+}
