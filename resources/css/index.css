@@ -394,6 +394,12 @@ article ul li {
 .animecontentbg h2 {
   font-family: MangaBoldItalic-eY7g;
   font-size: 2.5em;
+  margin: 0 auto !important;
+  padding-top: 20px;
+  padding-left: 0px;
+
+  text-align: center;
+
 }
 
 .animecontentbg article {
@@ -588,6 +594,7 @@ font-size: 1.5em;
 .videotable td {
   width: auto;
   height: 20rem;
+  padding-bottom: 20px;
 }
 
 
@@ -595,7 +602,7 @@ font-size: 1.5em;
   height: 2rem;
   font-weight: 700;
   font-family: MangaBoldItalic-eY7g;
-  padding: 0;
+
   margin: 0 60px;
   font-size: 1.25em;
   vertical-align: top;
