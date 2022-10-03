@@ -372,11 +372,43 @@ button a {
 
 .animeheader {
   font-family: MangaBoldItalic-eY7g;
-  font-size: 10rem;
+  font-size: 7rem;
   letter-spacing: .5px;
 }
 
+.animecontentbg {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .5) 15%, rgba(255, 255, 255, .5) 85%, rgba(255, 255, 255, 0) 100%), url(../img/animecontentbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Montserrat;
+  
+}
+.animecontentbg h2 {
+  font-family: 'Cinzel', serif;
+}
 
+.animecontentbg article {
+  font-family: 'Cinzel', serif;
+}
+
+#animequote {
+  border: 4px #2B2017 outset;
+  background-color: #C9B7A1;
+  color: #2B2017;
+  font-size: large;
+  font-family: 'Cinzel', serif;
+}
+
+.animebutton {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0 auto;
+  border: 4px #2B2017 outset;
+  background-color: #C9B7A1;
+  color: #2B2017;
+
+  font-family: 'Cinzel', serif;
+}
 .accordian_container {
   background:  linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(0, 0, 0, 1));
   display: flex;

@@ -32,6 +32,10 @@
         div = document.getElementById('ancient');
         div.style.display = "block";
     }
+	function showAnime() {
+        div = document.getElementById('anime');
+        div.style.display = "block";
+    }
 </script>
 </head>
 <body>
@@ -87,10 +91,10 @@
 			</a>
 		</li>
         <li class="gokubg">
-			<div class="image_title">
-				<a  href="#Anime" class="animeheader">Anime</a>
+			<div class="image_title" onclick="javascript:showAnime();">
+				<a  href="#anime" class="animeheader">Anime</a>
 			</div>
-			<a href="#Anime">
+			<a href="#anime" onclick="javascript:showAnime();">
 				<img alt="Goku" src="./resources/img/goku.png"/>
 			</a>
 		</li>
@@ -152,14 +156,13 @@
     <aside id="ancientquote">"a quote i said one time to say something for a quote" <br/> -Matt Stone and Trey Parker</aside>
     <button type="button" class="ancientbutton"><a href="./main.html" >Click to go back</a></button>
 </content>
-<content id="anime">
-	<header class="animeheader">Ancient Ruins</header>
-	<h2>What are some examples of Ancient Ruins?</h2>
+<content id="anime" class="animecontentbg">
+	<header class="animeheader">Anime</header>
+	<h2>What are some examples of Anime?</h2>
     <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
-    <h2>Where are some of these Ancient Ruins located?</h2>
+    <h2>What is it about Anime that you like?</h2>
     <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
-    <h2>What inspires me about these Ancient Ruins?</h2>
-    <article>lorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gapslorem ipsum text to help fill in gaps</article>
+   
     <aside id="animequote">"a quote i said one time to say something for a quote" <br/> -Matt Stone and Trey Parker</aside>
     <button type="button" class="animebutton"><a href="./main.html" >Click to go back</a></button>
 </content>
