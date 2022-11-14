@@ -324,10 +324,13 @@ button a {
 }
 
 
-.ancientcolor:hover {
+.ancientcolor1:hover {
   width: 100em;
   opacity: 0;
 
+}
+.ancientcolor2 {
+  display: none !important;
 }
 
 article ul li {
@@ -529,6 +532,8 @@ font-size: 1.5em;
   word-wrap: break-word;
 }
 
+
+
 #galileo {
   display: none;
 }
@@ -653,4 +658,97 @@ text-align: center;
   margin: 0 60px;
   font-size: 1.25em;
   vertical-align: top;
+}
+
+
+@media only screen and (max-width:1801px) {
+  .accordian_container {
+    
+    width: 60em;
+    width: cover;
+    pointer-events: none;
+  }
+  .accordian {
+    overflow: visible;
+    flex-direction: column;
+    
+  }
+  .accordian li {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: flexbox;
+    flex-direction: column;
+    
+  }
+  .accordian li img {
+    width: 100%;
+    height: auto;
+    
+    
+  }
+
+  .accordian li a {
+    width: 100%;
+    height: auto;
+   
+    
+  }
+  
+  .galileobg {
+    background-image: url(../img/galileobg.jpg);
+  }
+  .ozzybg {
+    background-image: url(../img/ozzybg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .tysonbg {
+    background-image: url(../img/tysonbg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .matbg  {
+    background-image: url(../img/matbg.jpg);
+  }
+  .ancientcolor1 {
+    display: none !important;
+  }
+
+  .ancientcolor2 {
+    display: block !important;
+  }
+
+  .gokubg {
+    background-image: url('../img/gokubg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  div a {
+    text-align: center;
+    font-size: 3rem !important;
+  }
+
+  .image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0; bottom: 10px;	
+    width: 100%;	
+    }
+    .image_title a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 20px;
+      font-size: 1.5em;
+        word-wrap: break-word;
+    }
+    
+   
 }
